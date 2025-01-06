@@ -33,7 +33,7 @@ in 2019, and became a php developer in October 2021 until
 now
 .
           </p>
-          <a href="#contact" className="btn btn-primary">Call Me</a>
+          <a href="#contact" className="btn btn-primary">Contact Me</a>
         </div>
       </div>
     </section>
