@@ -7,7 +7,7 @@ import './intro.css';
 const Intro = () => {
   return (
     <section id="about">
-      <h2>Tentang Saya</h2>
+      <h2>About me</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -18,8 +18,8 @@ const Intro = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Pengalaman</h5>
-              <small>2 Tahun</small>
+              <h5>Experience Working</h5>
+              <small>5+</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -27,13 +27,13 @@ const Intro = () => {
               <small>10+ Project Selesai</small>
             </article>
           </div>
-          <p>Saya lulusan S1 jurusan teknik informatika
-            (Universitas Kuningan). Saya mulai bekerja
-            pada tahun 2019, dan menjadi developer
-            php di Tahun 2021 bulan oktober sampai
-            saat ini.
+          <p>I am a graduate of S1 majoring in informatics engineering
+(University of Kuningan). I started working
+in 2019, and became a php developer in October 2021 until
+now
+.
           </p>
-          <a href="#contact" className="btn btn-primary">Hubungi Saya</a>
+          <a href="#contact" className="btn btn-primary">Call Me</a>
         </div>
       </div>
     </section>
