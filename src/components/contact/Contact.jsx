@@ -29,6 +29,7 @@ const Contact = () => {
             <a href="mailto:herlandy06@gmail.com">Send a message</a>
           </article>
         </div>
+        <br />
       </div>
 
     </section>

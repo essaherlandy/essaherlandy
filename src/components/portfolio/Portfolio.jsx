@@ -12,29 +12,68 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: 'Bigpromo',
+      title: 'Bigpromo (PT Igoid Bisnis Global)',
       img: IMG1,
-      github: 'https://github.com/Meri-MG/bookstore---react',
+      desc:"Big promo is an application created to meet the needs of the Ministry of Tourism and Creative Economy's event in helping UMKM to market UMKM products throughout Indonesia.",
+      tools:"Laravel, Mysql",
+      year:"2020"
     },
     {
       id: 2,
-      title: 'Warteg.ID',
+      title: 'Warteg.ID (PT Igoid Bisnis Global)',
       img: IMG4,
+      desc:"Warteg.ID is an application created to meet the needs of helping UMKM to market UMKM products.",
+      tools:"Laravel, Mysql",
+      year:"2020"
     },
     {
       id: 3,
-      title: 'Management Sekolah International Islamic Education Council (IIEC)',
+      title: 'Management Sekolah International Islamic Education Council (IIEC) (PT Igoid Bisnis Global)',
       img: IMG2,
+      desc:"It is an application built to facilitate the Management Information System and Student Registration System dynamically.",
+      tools:"Laravel, Mysql",
+      year:"2021"
     },
     {
       id: 4,
-      title: 'Merchant Management System',
+      title: 'Merchant Management System (Bank BRI from PT Lawencon International)',
       img: IMG3,
+      desc:"Merupakan suatu aplikasi yang dibangun untuk memfasilitasi Sistem Informasi Management, dan Sistem Pendaftaran siswa secara dinamis",
+      tools:"Laravel, Mysql",
+      year:"2021 - 2022"
     },
     {
       id: 5,
-      title: 'Re-enginering Merchant Management System',
+      title: 'Re-enginering Merchant Management System (Bank BRI from PT Lawencon International)',
       img: IMG5,
+      desc:"Merupakan suatu aplikasi yang dibangun untuk memfasilitasi Sistem Informasi Management, dan Sistem Pendaftaran siswa secara dinamis",
+      tools:"Laravel, Mysql",
+      year:"2022"
+    },
+    {
+      id: 6,
+      title: 'Credit Service (Bank RAYA from PT Bringin Inti Teknologi)',
+      img: "",
+    },
+    {
+      id: 7,
+      title: 'Credit Scoring (Bank RAYA from PT Bringin Inti Teknologi)',
+      img: "",
+    },
+    {
+      id: 8,
+      title: 'Prescreening Service SLIK Ojk (Bank RAYA from PT Bringin Inti Teknologi)',
+      img: "",
+    },
+    {
+      id: 9,
+      title: 'Prescreening Service SLIK Pefindo (Bank RAYA from PT Bringin Inti Teknologi)',
+      img: "",
+    },
+    {
+      id: 10,
+      title: 'Service API Whitelist (Bank RAYA from PT Bringin Inti Teknologi)',
+      img: "",
     },
   ];
   
@@ -50,7 +89,10 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={pro.img} alt={pro.title} />
           </div>
-          <h3>{pro.title}</h3>
+          <h3>Project : {pro.title}</h3>
+          <h5>Description : {pro.desc}</h5>
+          <h5>Tools : {pro.tools}</h5>
+          <h5>Year : {pro.year}</h5>
         </article>
         ))}   
       </div>
