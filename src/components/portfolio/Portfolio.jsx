@@ -4,6 +4,7 @@ import IMG2 from '../../assets/iiec.png';
 import IMG3 from '../../assets/mms.png';
 import IMG4 from '../../assets/warteg.png';
 import IMG5 from '../../assets/reenginering.png';
+import IMG6 from '../../assets/Bank_Raya.png';
 
 
 import './portfolio.css';
@@ -38,42 +39,57 @@ const Portfolio = () => {
       id: 4,
       title: 'Merchant Management System (Bank BRI from PT Lawencon International)',
       img: IMG3,
-      desc:"Merupakan suatu aplikasi yang dibangun untuk memfasilitasi Sistem Informasi Management, dan Sistem Pendaftaran siswa secara dinamis",
-      tools:"Laravel, Mysql",
+      desc:"It is used to manage BRI Bank QRIS Merchant registration",
+      tools:"Laravel, Mysql, Codeigniter 3",
       year:"2021 - 2022"
     },
     {
       id: 5,
       title: 'Re-enginering Merchant Management System (Bank BRI from PT Lawencon International)',
       img: IMG5,
-      desc:"Merupakan suatu aplikasi yang dibangun untuk memfasilitasi Sistem Informasi Management, dan Sistem Pendaftaran siswa secara dinamis",
-      tools:"Laravel, Mysql",
+      desc:"It is used to manage BRI Bank QRIS Merchant registration, which has been re-engineered using more modern tools and changed the appearance to make it look user friendly.",
+      tools:"Vue JS, Golang, Mysql, MMSQL",
       year:"2022"
     },
     {
       id: 6,
       title: 'Credit Service (Bank RAYA from PT Bringin Inti Teknologi)',
-      img: "",
+      img: IMG6,
+      desc:"This is a service for Thrid Party Applications for Pinang Flexi loans and Bailout Funds which are Bank Raya Indonesia loan products",
+      tools:"Golang (GRPC), Postgresql, Redis",
+      year:"2023-2025"
     },
     {
       id: 7,
       title: 'Credit Scoring (Bank RAYA from PT Bringin Inti Teknologi)',
-      img: "",
+      img: IMG6,
+      desc:"It is a system created for the process of calculating customer credit grades and characteristics for applying for Pinang Flexi loans and Dana Talangan which are Bank Raya Indonesia loan products",
+      tools:"Pyhton, Postgresql",
+      year:"2023-2025"
     },
     {
       id: 8,
       title: 'Prescreening Service SLIK Ojk (Bank RAYA from PT Bringin Inti Teknologi)',
-      img: "",
+      img: IMG6,
+      desc:"This is a service for third parties to check SLIK on Pinang Flexi loan applications and Talangan Funds which are Bank Raya Indonesia loan products.",
+      tools:"Golang (Fiber), Postgresql",
+      year:"2023-2025"
     },
     {
       id: 9,
       title: 'Prescreening Service SLIK Pefindo (Bank RAYA from PT Bringin Inti Teknologi)',
-      img: "",
+      img: IMG6,
+      desc:"This is a service for third parties for alternative SLIK checking on Pinang Flexi loan applications and Talangan Funds which are Bank Raya Indonesia loan products.",
+      tools:"Golang (Fiber), Postgresql",
+      year:"2023-2025"
     },
     {
       id: 10,
       title: 'Service API Whitelist (Bank RAYA from PT Bringin Inti Teknologi)',
-      img: "",
+      img: IMG6,
+      desc:"This is a service for third parties to check whether customers are on the loan whitelist or not",
+      tools:"Golang (Grpc), Postgresql",
+      year:"2023-2025"
     },
   ];
   
